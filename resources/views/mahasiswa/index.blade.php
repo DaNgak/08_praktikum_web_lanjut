@@ -64,6 +64,7 @@
         
             <button type="submit" class="btn btn-danger">Delete</button>
         </form>
+            <a href="{{ url("mahasiswa/nilai/$mhs->nim") }}" class="btn btn-warning">Nilai</a>
         </td>
         </tr>
         @endforeach
